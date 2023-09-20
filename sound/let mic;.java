@@ -12,12 +12,12 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(255);
 
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
-  fill(127);
-  stroke(0);
+  fill(0);
+  stroke(200);
 
   // Draw an ellipse with height based on volume
   let h = map(vol, 0, 1, height, 0);
