@@ -1,4 +1,5 @@
-let audio1 = new Audio ('data:audio')
+// let audio1 = new Audio ('data:audio')
+let mic
 const audioCtx = new AudioContext();
 console.log(audioCtx);
 
