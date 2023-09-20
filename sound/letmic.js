@@ -16,7 +16,7 @@ function draw() {
 
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
-  fill(0);
+  fill(50);
   stroke(200);
 
   // Draw an ellipse with height based on volume
