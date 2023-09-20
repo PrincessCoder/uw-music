@@ -1,4 +1,4 @@
-let audio1 = new Audio
+let audio1 = new Audio ()
 const audioCtx = new AudioContext();
 console.log(audioCtx);
 
